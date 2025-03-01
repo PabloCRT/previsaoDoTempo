@@ -1,0 +1,217 @@
+@media screen and (min-width: 360px) and (max-width: 900px) {
+    *{
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+    }
+    
+    :root{
+        --branco: rgb(230, 243, 255);
+        --preto: rgb(1, 1, 29);
+        --cinzaVidro: rgba(29, 29, 29, 0.473);
+        --cinzaVidroEscuro: rgba(15, 15, 15, 0.877);
+        --cinzaClaro: rgb(168, 168, 168);
+    }
+    
+    input::placeholder{
+        color: var(--cinzaClaro);
+    }
+    
+    body{
+        background: var(--preto);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center top;
+        font-size: 2vh;
+        font-family: Arial, Helvetica, sans-serif;
+    
+        text-align: center;
+        padding: 40% 15%;
+    }
+    
+    .caixa{
+        padding: 10%;
+        border: 2px var(--branco) solid;
+        border-radius: 15px;
+        background: var(--cinzaVidro);
+    
+        & nav{
+            display: flex;
+            justify-content: space-around;
+    
+            & input{
+                background: var(--cinzaVidroEscuro);
+                border: none;
+                border-radius: 15px;
+                padding: 2%;
+                color: var(--branco);
+            }
+    
+            & button{
+                text-align: center;
+                height: 4vh;
+                border: none;
+                border-radius: 50%;
+                padding: 2%;
+                background: var(--cinzaVidroEscuro);
+                cursor: pointer;
+    
+                & img{
+                    height: 100%;
+                }
+            }
+        }
+    
+        & .title{
+            text-align: left;
+            color: var(--branco);
+            padding: 5%;
+        }
+    
+        & .temperatura{
+            display: flex;
+            justify-content: left;
+            margin-top: 5%;
+            margin-bottom: 5%;
+    
+            & p{
+                color: var(--branco);
+            }
+        }
+    
+        & .tempo{
+            width: 80%;
+            display: flex;
+            justify-content: left;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            text-transform: capitalize;
+            
+            & p{
+                color: var(--branco);
+                margin: auto;
+            }
+        }
+    
+        & .umidade{
+            display: flex;
+            text-align: left;
+            margin-top: 5%;
+            margin-bottom: 5%;
+    
+            & p{
+                color: var(--branco);
+            }
+        }
+    }
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    *{
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+    }
+    
+    :root{
+        --branco: rgb(230, 243, 255);
+        --preto: rgb(1, 1, 29);
+        --cinzaVidro: rgba(29, 29, 29, 0.473);
+        --cinzaVidroEscuro: rgba(15, 15, 15, 0.877);
+        --cinzaClaro: rgb(168, 168, 168);
+    }
+    
+    input::placeholder{
+        color: var(--cinzaClaro);
+    }
+    
+    body{
+        background: var(--preto);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center top;
+        font-size: 2vh;
+        font-family: Arial, Helvetica, sans-serif;
+    
+        text-align: center;
+        padding: 15% 40%;
+    }
+    
+    .caixa{
+        padding: 10%;
+        border: 2px var(--branco) solid;
+        border-radius: 15px;
+        background: var(--cinzaVidro);
+    
+        & nav{
+            display: flex;
+            justify-content: space-around;
+    
+            & input{
+                background: var(--cinzaVidroEscuro);
+                border: none;
+                border-radius: 15px;
+                padding: 2%;
+                color: var(--branco);
+            }
+    
+            & button{
+                text-align: center;
+                height: 4vh;
+                border: none;
+                border-radius: 50%;
+                padding: 2%;
+                background: var(--cinzaVidroEscuro);
+                cursor: pointer;
+    
+                & img{
+                    height: 100%;
+                }
+            }
+        }
+    
+        & .title{
+            text-align: left;
+            color: var(--branco);
+            padding: 5%;
+        }
+    
+        & .temperatura{
+            display: flex;
+            justify-content: left;
+            margin-top: 5%;
+            margin-bottom: 5%;
+    
+            & p{
+                color: var(--branco);
+            }
+        }
+    
+        & .tempo{
+            width: 80%;
+            display: flex;
+            justify-content: left;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            text-transform: capitalize;
+            
+            & p{
+                color: var(--branco);
+                margin: auto;
+            }
+        }
+    
+        & .umidade{
+            display: flex;
+            text-align: left;
+            margin-top: 5%;
+            margin-bottom: 5%;
+    
+            & p{
+                color: var(--branco);
+            }
+        }
+    }
+}
